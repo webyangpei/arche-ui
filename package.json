@@ -1,0 +1,27 @@
+{
+  "name": "arche-ui",
+  "version": "1.0.2",
+  "description": "",
+  "main": "package/arche-ui.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --config ./build/webpack.config.base.js",
+    "build": "webpack --config ./build/webpack.config.build.js"
+  },
+  "author": "webyangpei",
+  "license": "ISC",
+  "dependencies": {
+    "vue": "^2.6.12",
+    "vue-loader": "^15.9.3",
+    "vue-template-compiler": "^2.6.12"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^4.3.0",
+    "html-webpack-plugin": "^4.5.0",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
