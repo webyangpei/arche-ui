@@ -1,7 +1,6 @@
 language: node_js
 node_js: 14
 os: linux
-dist: lib
 install: npm install
 script: npm run build
 #after_success: sh ./deploy/publish.sh
