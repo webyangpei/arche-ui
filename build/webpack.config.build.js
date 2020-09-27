@@ -8,8 +8,8 @@ module.exports = {
     'arche-ui': './packages/index.js'
   },
   output: {
-    path: path.resolve(__dirname, '../package'),
-    publicPath: '/package/',
+    path: path.resolve(__dirname, '../lib'), // 输出目录
+    publicPath: '/lib/', // 输出路径
     library: 'arche-ui', //包名称
     libraryTarget: 'umd',
     umdNamedDefine: true // 会对 UMD 的构建过程中的 AMD 模块进行命名。否则就使用匿名的 define

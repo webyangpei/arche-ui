@@ -2,7 +2,7 @@
   "name": "arche-ui",
   "version": "1.0.2",
   "description": "",
-  "main": "package/arche-ui.js",
+  "main": "lib/arche-ui.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --config ./build/webpack.config.base.js",
