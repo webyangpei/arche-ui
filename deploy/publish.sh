@@ -1,4 +1,8 @@
-#!/bin/bash
+ #!/usr/bin/expect
+yum  install expect
 
-# 登录 npm publish包
-npm publish
+spawn  npm login
+expect "Username:"
+send "webyangpei \n"
+expect "Password"
+send "15930022951q;"
