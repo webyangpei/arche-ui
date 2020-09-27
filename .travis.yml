@@ -1,6 +1,12 @@
+os: linux
 language: node_js
 node_js: 14
-os: linux
+branches:
+  only:
+    - master
+cache:
+  directories:
+    - node_modules
 install: npm install
 script: npm run build
-#after_success: sh ./deploy/publish.sh
+after_success: sh ./deploy/publish.sh
