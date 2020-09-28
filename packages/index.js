@@ -1,7 +1,15 @@
-import Hello from './Hello';
+import Button from './button';
+import Table from './table';
+import TableColumn from './table-column';
+import Transfer from './transfer';
+import Input from './input'
 
 const components = {
-  Hello
+  Button,
+  Table,
+  TableColumn,
+  Input,
+  Transfer
 }
 
 
@@ -17,5 +25,9 @@ if (typeof window !== 'undefined' && window.Vue) {
 
 export default {
   install,
-  Hello
+  Button,
+  Table,
+  TableColumn,
+  Input,
+  Transfer
 }
