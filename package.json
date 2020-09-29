@@ -2,11 +2,12 @@
   "name": "arche-ui",
   "version": "1.0.2",
   "description": "This is a components library for myself!",
-  "main": "lib/arche-ui.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --config ./build/webpack.config.base.js",
-    "build": "webpack --config ./build/webpack.config.build.js"
+    "build": "webpack --config ./build/webpack.config.build.js",
+    "build-theme": "webpack --config ./build/webpack.config.build.js"
   },
   "author": "webyangpei",
   "license": "ISC",

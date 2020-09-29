@@ -3,10 +3,7 @@
   "plugins": [
     "transform-vue-jsx",
     ["module-resolver", {
-      "root": ["../"],
-      "alias": {
-        "element-ui": "arche-ui"
-      }
+      "root": ["../"]
   }]],
   "env": {
     "utils": {
@@ -24,10 +21,7 @@
       ],
       "plugins": [
         ["module-resolver", {
-          "root": ["element-ui"],
-          "alias": {
-            "element-ui/src": "element-ui/lib"
-          }
+          "root": ["element-ui"]
         }]
       ]
     }
